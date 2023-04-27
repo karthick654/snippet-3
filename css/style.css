@@ -1,0 +1,168 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container{
+	width:1170px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex-container{
+	display:flex;
+	margin-left:-15px;
+	margin-right:-15px;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex-item5{
+	width:41.6%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex-item7{
+	width:58.3%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.header-section{
+	padding:30px;
+}
+.banner-img{
+	background:url("../images/image-1.jpeg");
+	height:79vh;
+	width:auto;
+	background-size:cover;
+}
+.banner-content{
+	padding:30px;
+}
+.banner-details{
+	margin-top:10px;
+}
+.banner-headline h1{
+	font-size:33px;
+	font-family:"poppins",sans-serif;
+	font-weight:bold;
+	color:#000000de;
+}
+.banner-headline p{
+	margin-top:10px;
+	color:gray;
+	line-height:2;
+	font-weight:bold;
+	font-family:"poppins",sans-serif;
+}
+.icons i{
+	font-size:40px;
+	color:orange;
+}
+.icons-1 span{
+	padding-bottom:10px;
+}
+.icons p{
+	padding-left:44px;
+	color:gray;
+	line-height:1.5;
+	font-family:sans-serif;
+}
+.icons p::before{
+	content:"happy clients";
+	color:#000000a3;
+	text-transform:capitalize;
+	font-size:20px;
+	font-weight:bold;
+}
+.icons span{
+	font-size:46px;
+	padding-left:10px;
+	color:black;
+	font-weight:bold;
+}
+.content-1{
+	display:flex;
+	margin-top:20px;
+}
+.icons-1{
+	    margin-left: 35px;
+}
+.icons-1 i{
+	font-size:40px;
+	color:orange;
+}
+.icons-1 p{
+	padding-left:48px;
+	color:gray;
+	line-height:1.5;
+	font-family:sans-serif;
+}
+.icons-1 p::before{
+	content:"projects";
+	color:#000000a3;
+	text-transform:capitalize;
+	font-size:20px;
+	font-weight:bold;
+}
+.icons-1 span{
+	font-size:46px;
+	padding-left:10px;
+	color:black;
+	font-weight:bold;
+}
+.content-2{
+	display:flex;
+	margin-top:35px;
+}
+.icons-4{
+	margin-left: 35px;
+}
+.icons-3 i{
+	font-size:40px;
+	color:orange;
+}
+.icons-3 p{
+	padding-left:44px;
+	color:gray;
+	line-height:1.5;
+	font-family:sans-serif;
+}
+.icons-3 p::before{
+	content:"years of experience";
+	color:#000000a3;
+	text-transform:capitalize;
+	font-size:20px;
+	font-weight:bold;
+}
+.icons-3 span{
+	font-size:46px;
+	padding-left:10px;
+	color:black;
+	font-weight:bold;
+}
+.icons-4 i{
+	font-size:40px;
+	color:orange;
+}
+.icons-4 p{
+	padding-left:48px;
+	color:gray;
+	line-height:1.5;
+	font-family:sans-serif;
+}
+.icons-4 p::before{
+	content:"Awards";
+	color:#000000a3;
+	text-transform:capitalize;
+	font-size:20px;
+	font-weight:bold;
+}
+.icons-4 span{
+	font-size:46px;
+	padding-left:10px;
+	color:black;
+	font-weight:bold;
+}
